@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1C29F817AEF41F00D54D6F /* AccessoryView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC1C29F717AEF41F00D54D6F /* AccessoryView.xib */; };
 		AC222B7317AEF39A007D6E5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC222B7217AEF39A007D6E5F /* UIKit.framework */; };
 		AC222B7517AEF39A007D6E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC222B7417AEF39A007D6E5F /* Foundation.framework */; };
 		AC222B7717AEF39A007D6E5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC222B7617AEF39A007D6E5F /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC1C29F717AEF41F00D54D6F /* AccessoryView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccessoryView.xib; sourceTree = "<group>"; };
 		AC222B6F17AEF39A007D6E5F /* FLDTKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLDTKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC222B7217AEF39A007D6E5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AC222B7417AEF39A007D6E5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -120,6 +122,7 @@
 				AC222B8117AEF39A007D6E5F /* AppDelegate.h */,
 				AC222B8217AEF39A007D6E5F /* AppDelegate.m */,
 				AC222B8A17AEF39A007D6E5F /* MainStoryboard.storyboard */,
+				AC1C29F717AEF41F00D54D6F /* AccessoryView.xib */,
 				AC222B8D17AEF39A007D6E5F /* ViewController.h */,
 				AC222B8E17AEF39A007D6E5F /* ViewController.m */,
 				AC222B7917AEF39A007D6E5F /* Supporting Files */,
@@ -236,6 +239,7 @@
 				AC222B8717AEF39A007D6E5F /* Default@2x.png in Resources */,
 				AC222B8917AEF39A007D6E5F /* Default-568h@2x.png in Resources */,
 				AC222B8C17AEF39A007D6E5F /* MainStoryboard.storyboard in Resources */,
+				AC1C29F817AEF41F00D54D6F /* AccessoryView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +457,7 @@
 				AC222BA917AEF39A007D6E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC222BAA17AEF39A007D6E5F /* Build configuration list for PBXNativeTarget "FLDTKeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +466,7 @@
 				AC222BAC17AEF39A007D6E5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
