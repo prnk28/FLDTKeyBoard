@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC222B7317AEF39A007D6E5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC222B7217AEF39A007D6E5F /* UIKit.framework */; };
+		AC222B7517AEF39A007D6E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC222B7417AEF39A007D6E5F /* Foundation.framework */; };
+		AC222B7717AEF39A007D6E5F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC222B7617AEF39A007D6E5F /* CoreGraphics.framework */; };
+		AC222B7D17AEF39A007D6E5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC222B7B17AEF39A007D6E5F /* InfoPlist.strings */; };
+		AC222B7F17AEF39A007D6E5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC222B7E17AEF39A007D6E5F /* main.m */; };
+		AC222B8317AEF39A007D6E5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC222B8217AEF39A007D6E5F /* AppDelegate.m */; };
+		AC222B8517AEF39A007D6E5F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AC222B8417AEF39A007D6E5F /* Default.png */; };
+		AC222B8717AEF39A007D6E5F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC222B8617AEF39A007D6E5F /* Default@2x.png */; };
+		AC222B8917AEF39A007D6E5F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC222B8817AEF39A007D6E5F /* Default-568h@2x.png */; };
+		AC222B8C17AEF39A007D6E5F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC222B8A17AEF39A007D6E5F /* MainStoryboard.storyboard */; };
+		AC222B8F17AEF39A007D6E5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC222B8E17AEF39A007D6E5F /* ViewController.m */; };
+		AC222B9717AEF39A007D6E5F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC222B9617AEF39A007D6E5F /* SenTestingKit.framework */; };
+		AC222B9817AEF39A007D6E5F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC222B7217AEF39A007D6E5F /* UIKit.framework */; };
+		AC222B9917AEF39A007D6E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC222B7417AEF39A007D6E5F /* Foundation.framework */; };
+		AC222BA117AEF39A007D6E5F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC222B9F17AEF39A007D6E5F /* InfoPlist.strings */; };
+		AC222BA417AEF39A007D6E5F /* FLDTKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AC222BA317AEF39A007D6E5F /* FLDTKeyboardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC222B9A17AEF39A007D6E5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC222B6717AEF39A007D6E5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC222B6E17AEF39A007D6E5F;
+			remoteInfo = FLDTKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC222B6F17AEF39A007D6E5F /* FLDTKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLDTKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC222B7217AEF39A007D6E5F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AC222B7417AEF39A007D6E5F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AC222B7617AEF39A007D6E5F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AC222B7A17AEF39A007D6E5F /* FLDTKeyboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLDTKeyboard-Info.plist"; sourceTree = "<group>"; };
+		AC222B7C17AEF39A007D6E5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC222B7E17AEF39A007D6E5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC222B8017AEF39A007D6E5F /* FLDTKeyboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLDTKeyboard-Prefix.pch"; sourceTree = "<group>"; };
+		AC222B8117AEF39A007D6E5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AC222B8217AEF39A007D6E5F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AC222B8417AEF39A007D6E5F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AC222B8617AEF39A007D6E5F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AC222B8817AEF39A007D6E5F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AC222B8B17AEF39A007D6E5F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		AC222B8D17AEF39A007D6E5F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AC222B8E17AEF39A007D6E5F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AC222B9517AEF39A007D6E5F /* FLDTKeyboardTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLDTKeyboardTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC222B9617AEF39A007D6E5F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		AC222B9E17AEF39A007D6E5F /* FLDTKeyboardTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FLDTKeyboardTests-Info.plist"; sourceTree = "<group>"; };
+		AC222BA017AEF39A007D6E5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC222BA217AEF39A007D6E5F /* FLDTKeyboardTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLDTKeyboardTests.h; sourceTree = "<group>"; };
+		AC222BA317AEF39A007D6E5F /* FLDTKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDTKeyboardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC222B6C17AEF39A007D6E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC222B7317AEF39A007D6E5F /* UIKit.framework in Frameworks */,
+				AC222B7517AEF39A007D6E5F /* Foundation.framework in Frameworks */,
+				AC222B7717AEF39A007D6E5F /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC222B9117AEF39A007D6E5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC222B9717AEF39A007D6E5F /* SenTestingKit.framework in Frameworks */,
+				AC222B9817AEF39A007D6E5F /* UIKit.framework in Frameworks */,
+				AC222B9917AEF39A007D6E5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC222B6617AEF39A007D6E5F = {
+			isa = PBXGroup;
+			children = (
+				AC222B7817AEF39A007D6E5F /* FLDTKeyboard */,
+				AC222B9C17AEF39A007D6E5F /* FLDTKeyboardTests */,
+				AC222B7117AEF39A007D6E5F /* Frameworks */,
+				AC222B7017AEF39A007D6E5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC222B7017AEF39A007D6E5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC222B6F17AEF39A007D6E5F /* FLDTKeyboard.app */,
+				AC222B9517AEF39A007D6E5F /* FLDTKeyboardTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC222B7117AEF39A007D6E5F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC222B7217AEF39A007D6E5F /* UIKit.framework */,
+				AC222B7417AEF39A007D6E5F /* Foundation.framework */,
+				AC222B7617AEF39A007D6E5F /* CoreGraphics.framework */,
+				AC222B9617AEF39A007D6E5F /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC222B7817AEF39A007D6E5F /* FLDTKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AC222B8117AEF39A007D6E5F /* AppDelegate.h */,
+				AC222B8217AEF39A007D6E5F /* AppDelegate.m */,
+				AC222B8A17AEF39A007D6E5F /* MainStoryboard.storyboard */,
+				AC222B8D17AEF39A007D6E5F /* ViewController.h */,
+				AC222B8E17AEF39A007D6E5F /* ViewController.m */,
+				AC222B7917AEF39A007D6E5F /* Supporting Files */,
+			);
+			path = FLDTKeyboard;
+			sourceTree = "<group>";
+		};
+		AC222B7917AEF39A007D6E5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC222B7A17AEF39A007D6E5F /* FLDTKeyboard-Info.plist */,
+				AC222B7B17AEF39A007D6E5F /* InfoPlist.strings */,
+				AC222B7E17AEF39A007D6E5F /* main.m */,
+				AC222B8017AEF39A007D6E5F /* FLDTKeyboard-Prefix.pch */,
+				AC222B8417AEF39A007D6E5F /* Default.png */,
+				AC222B8617AEF39A007D6E5F /* Default@2x.png */,
+				AC222B8817AEF39A007D6E5F /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC222B9C17AEF39A007D6E5F /* FLDTKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC222BA217AEF39A007D6E5F /* FLDTKeyboardTests.h */,
+				AC222BA317AEF39A007D6E5F /* FLDTKeyboardTests.m */,
+				AC222B9D17AEF39A007D6E5F /* Supporting Files */,
+			);
+			path = FLDTKeyboardTests;
+			sourceTree = "<group>";
+		};
+		AC222B9D17AEF39A007D6E5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC222B9E17AEF39A007D6E5F /* FLDTKeyboardTests-Info.plist */,
+				AC222B9F17AEF39A007D6E5F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC222B6E17AEF39A007D6E5F /* FLDTKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC222BA717AEF39A007D6E5F /* Build configuration list for PBXNativeTarget "FLDTKeyboard" */;
+			buildPhases = (
+				AC222B6B17AEF39A007D6E5F /* Sources */,
+				AC222B6C17AEF39A007D6E5F /* Frameworks */,
+				AC222B6D17AEF39A007D6E5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLDTKeyboard;
+			productName = FLDTKeyboard;
+			productReference = AC222B6F17AEF39A007D6E5F /* FLDTKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC222B9417AEF39A007D6E5F /* FLDTKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC222BAA17AEF39A007D6E5F /* Build configuration list for PBXNativeTarget "FLDTKeyboardTests" */;
+			buildPhases = (
+				AC222B9017AEF39A007D6E5F /* Sources */,
+				AC222B9117AEF39A007D6E5F /* Frameworks */,
+				AC222B9217AEF39A007D6E5F /* Resources */,
+				AC222B9317AEF39A007D6E5F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC222B9B17AEF39A007D6E5F /* PBXTargetDependency */,
+			);
+			name = FLDTKeyboardTests;
+			productName = FLDTKeyboardTests;
+			productReference = AC222B9517AEF39A007D6E5F /* FLDTKeyboardTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC222B6717AEF39A007D6E5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Pradyumn Nukala";
+			};
+			buildConfigurationList = AC222B6A17AEF39A007D6E5F /* Build configuration list for PBXProject "FLDTKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC222B6617AEF39A007D6E5F;
+			productRefGroup = AC222B7017AEF39A007D6E5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC222B6E17AEF39A007D6E5F /* FLDTKeyboard */,
+				AC222B9417AEF39A007D6E5F /* FLDTKeyboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC222B6D17AEF39A007D6E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC222B7D17AEF39A007D6E5F /* InfoPlist.strings in Resources */,
+				AC222B8517AEF39A007D6E5F /* Default.png in Resources */,
+				AC222B8717AEF39A007D6E5F /* Default@2x.png in Resources */,
+				AC222B8917AEF39A007D6E5F /* Default-568h@2x.png in Resources */,
+				AC222B8C17AEF39A007D6E5F /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC222B9217AEF39A007D6E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC222BA117AEF39A007D6E5F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC222B9317AEF39A007D6E5F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC222B6B17AEF39A007D6E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC222B7F17AEF39A007D6E5F /* main.m in Sources */,
+				AC222B8317AEF39A007D6E5F /* AppDelegate.m in Sources */,
+				AC222B8F17AEF39A007D6E5F /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC222B9017AEF39A007D6E5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC222BA417AEF39A007D6E5F /* FLDTKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC222B9B17AEF39A007D6E5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC222B6E17AEF39A007D6E5F /* FLDTKeyboard */;
+			targetProxy = AC222B9A17AEF39A007D6E5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC222B7B17AEF39A007D6E5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC222B7C17AEF39A007D6E5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC222B8A17AEF39A007D6E5F /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC222B8B17AEF39A007D6E5F /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		AC222B9F17AEF39A007D6E5F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC222BA017AEF39A007D6E5F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC222BA517AEF39A007D6E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AC222BA617AEF39A007D6E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC222BA817AEF39A007D6E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLDTKeyboard/FLDTKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "FLDTKeyboard/FLDTKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC222BA917AEF39A007D6E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLDTKeyboard/FLDTKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "FLDTKeyboard/FLDTKeyboard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC222BAB17AEF39A007D6E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FLDTKeyboard.app/FLDTKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLDTKeyboard/FLDTKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "FLDTKeyboardTests/FLDTKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AC222BAC17AEF39A007D6E5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FLDTKeyboard.app/FLDTKeyboard";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FLDTKeyboard/FLDTKeyboard-Prefix.pch";
+				INFOPLIST_FILE = "FLDTKeyboardTests/FLDTKeyboardTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC222B6A17AEF39A007D6E5F /* Build configuration list for PBXProject "FLDTKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC222BA517AEF39A007D6E5F /* Debug */,
+				AC222BA617AEF39A007D6E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC222BA717AEF39A007D6E5F /* Build configuration list for PBXNativeTarget "FLDTKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC222BA817AEF39A007D6E5F /* Debug */,
+				AC222BA917AEF39A007D6E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC222BAA17AEF39A007D6E5F /* Build configuration list for PBXNativeTarget "FLDTKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC222BAB17AEF39A007D6E5F /* Debug */,
+				AC222BAC17AEF39A007D6E5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC222B6717AEF39A007D6E5F /* Project object */;
+}
